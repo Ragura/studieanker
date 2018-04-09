@@ -1,4 +1,4 @@
-# studieanker
+# Studieanker
 
 > Cursussen over webdevelopment
 
