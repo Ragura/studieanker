@@ -1,10 +1,14 @@
 <template>
   <div>
-    <top-header/>
-    <main>
-      <nuxt/>
-    </main>
-    <bottom-footer/>
+    <v-app>
+      <top-header/>
+      <v-content>
+        <main>
+          <nuxt/>
+        </main>
+      </v-content>
+      <!-- <bottom-footer/> -->
+    </v-app>
   </div>
 </template>
 

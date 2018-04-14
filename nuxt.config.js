@@ -7,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: "Studieanker",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -17,6 +17,9 @@ module.exports = {
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet", href: "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"
+      },
+      { 
+        rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
       }
     ]
   },
@@ -29,12 +32,14 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [],
+  css: ['~assets/app.styl'],
 
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [],
+  plugins: [
+    '~plugins/vuetify.js'
+  ],
 
   /*
   ** Nuxt.js modules
@@ -70,6 +75,8 @@ module.exports = {
           exclude: /(node_modules)/
         });
       }
-    }
+    },
+
+    vendor: ['vuetify']
   }
 };

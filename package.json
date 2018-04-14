@@ -17,13 +17,18 @@
     "highlight.js": "^9.12.0",
     "markdown-it": "^8.4.1",
     "nuxt": "^1.0.0",
-    "storyblok-nuxt": "0.0.3"
+    "storyblok-nuxt": "0.0.3",
+    "vuetify": "^1.0.14"
   },
   "devDependencies": {
-    "cross-env": "^5.0.1",
     "babel-eslint": "^8.2.1",
+    "cross-env": "^5.0.1",
     "eslint": "^4.15.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^7.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
   }
 }
